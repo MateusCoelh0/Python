@@ -1,0 +1,51 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# =========================
+# Ambientes virtuais
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# Dados (não versionar dados brutos)
+# =========================
+data/raw/
+data/external/
+*.csv
+*.xlsx
+*.parquet
+
+# =========================
+# Logs e temporários
+# =========================
+*.log
+*.tmp
+
+# =========================
+# SO / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+
+# =========================
+# Credenciais
+# =========================
+.env
+*.key
+*.pem
